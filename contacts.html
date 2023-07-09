@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+	 <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <title>Aaron Dam</title>
+  </head>
+  <header>
+	  <div class="navbar navbar-dark shadow-sm border custom-background-color navbar-expand-lg">
+		  <div class="container">
+			  <a href="index.html" class="navbar-brand d-flex align-items-center">	 
+			  	<strong class="logo-text custom-nav-text">Aaron</strong>
+			  </a>
+			  <nav class="navbar navbar-expand-lg navbar-light rounded" aria-label="mynavBar">
+				  <div class="container-fluid">  
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#smallNavbar" aria-controls="smallNavbar" aria-expanded="false">
+					  	<span class="navbar-toggler-icon"></span>
+					  </button>      
+					  <div class="nav-text collapse navbar-collapse">
+						  <ul class="ml-auto navbar-nav-scroll navbar-nav w-100">
+							  <li class="nav-item "> <a class="nav-link text-light" href="index.html">Home</a></li>
+							  <li class="nav-item "> <a class="nav-link text-light" href="about.html">About Me</a></li>
+							  <li class="nav-item"> <a class="nav-link  text-light" href="videos.html">Videos</a></li>
+							  <li class="nav-item"> <a class="nav-link text-light" href="events.html">Events</a></li>
+							  <li class="nav-item"> <a class="nav-link text-light pagesetting" href="contacts.html">Contacts</a></li>
+							  <li class="nav-item"> <a class="nav-link text-light" href="process.html">Process</a></li>
+						  </ul>
+					  </div>
+				  </div>
+			  </nav>
+		  </div>
+	  </div>
+  </header>
+  <body >
+   <!-- Navigation -->
+  
+	  <!-- contact Aaron Dam -->
+	  
+	  <h2 class="personal-infomation">Contact Infomation</h2>
+	  <div class="container">
+		  <table class="table mt-5 table-bordered table-striped table-hover bg-body">
+			<caption>My Contacts</caption>
+			<thead>
+				 <tr>
+				  <th>Name</th>
+				  <th>Position</th>
+				  <th>Tel.</th>
+				  <th>Email</th>
+				  <th>Location</th>
+				</tr>
+			</thead>
+			 <tr>
+			  <td>Aaron Dam </td>
+			  <td>University of Toronto Student</td>
+			  <td>416-000-0000</td>
+			  <td>damaar@sheridancollege.ca</td>
+			   <td>3359 Mississauga Rd, Mississauga, ON L5L 1C6</td>
+			</tr>
+		  </table>
+	  </div>
+	  
+	   <!-- User infomation -->
+	  <div class="container mt-5 mb-5">
+		<div class = "row">
+			<div class ="col-6">
+				<form action="process.html">
+					<fieldset>
+						<legend>Personal infomation</legend>
+						
+						<label class= "form-label" for="firstName">First Name: <i class="material-icons" style="padding-right: 30px; position: relative; top:5px;" data-bs-toggle="tooltip" title="Enter your First Name" ><span class="material-icons-outlined">help_outline</span></i></label>
+						<input class="form-control" type="text" name="firstName" id="firstName">
+						
+						<label class= "form-label" for="firstName">Last Name: <i class="material-icons" style="padding-right: 30px; position: relative; top:5px;" data-bs-toggle="tooltip" title="Enter your Last Name" ><span class="material-icons-outlined">help_outline</span></i></label>
+						<input class="form-control" type="text" name="lastName" id="lastName">
+						
+						<label class= "form-label" for="firstName">Email: <i class="material-icons" style="padding-right: 30px; position: relative; top:5px;" data-bs-toggle="tooltip" title="Enter your Email" ><span class="material-icons-outlined">help_outline</span></i></label>
+						<input class="form-control" type="email" name="email" id="email">
+						
+						
+						<label class= "form-label" for="firstName">Phone Number: <i class="material-icons" style="padding-right: 30px; position: relative; top:5px;" data-bs-toggle="tooltip" title="Put your phone number" ><span class="material-icons-outlined">help_outline</span></i></label>
+						<input class="form-control" type="tel" name="phoneNumber" id="phoneNumber">
+						
+					</fieldset>   
+					
+					<fieldset>
+						<legend>Post your comments</legend>
+						<label for="comment"></label>
+						<textarea name="comment" id="comment" rows="5" cols="60"></textarea>		
+						
+					</fieldset>
+					
+					<button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" title="Click to submit">Submit</button>
+				</form>
+				
+				</div>
+			
+		</div>
+	  </div>
+	  
+	  
+	  
+	   <!-- modal -->
+	  
+	  
+	  <div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+	  
+	   <!-- Social Media -->
+	  
+	  <div class="container px-4 py-5" id="icon-grid">
+		  <h2 class="pb-2 border-top">Contact me on my personal social media</h2>
+		  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+			  <div class="col d-flex align-items-start">
+			  	<i class="material-icons" style="padding-right: 30px;">group</i>
+			  <div>
+			  	<h4 class="fw-bold mb-0"><a href="https://www.facebook.com/aaron.dam.10/">Facebook</a></h4>
+			  </div>
+			  </div>
+			  <div class="col d-flex align-items-start">
+				  <i class="material-icons" style="padding-right: 30px;">contacts</i>
+			  	<div>
+			  		<h4 class="fw-bold mb-0"><a href="https://twitter.com/AaronDam3">Twitter</a></h4>
+    			</div>
+			  </div>
+			  <div class="col d-flex align-items-start">
+			  	<i class="material-icons" style="padding-right: 30px;">email</i>
+			  	<div>
+			  		<h4 class="fw-bold mb-0"><a href="mailto:damaar@sheridancollege.ca">Email</a></h4>
+			  
+			  </div>
+			  </div>
+		  </div>
+    
+      </div>
+	
+	 
+	   <!-- footer -->
+	  <div class="container">
+		  <footer class="row row-cols-5 py-5 my-5 border-top">
+			  <div class="col">
+				  <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+				  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+				  </a>
+			  	  <p class="text-muted">&copy; Aaron Dam 2021</p>
+			  </div>
+
+			  <div class="col">
+
+			  </div>
+
+			  <div class="col">
+				  <h5>Explore</h5>
+				  <ul class="nav flex-column">
+				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Me</a></li>
+				  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Events</a></li>
+				  </ul>
+			  </div>
+
+			  <div class="col">
+				  <h5>Follow</h5>
+				  <ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="https://www.facebook.com/aaron.dam.10"  target="_blank" class="nav-link p-0 text-muted">Facebook</a></li>
+					<li class="nav-item mb-2"><a href="https://twitter.com/AaronDam3" target="_blank" class="nav-link p-0 text-muted">Twitter</a></li>
+					<li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UCwHKlEnRe1alX-GeenS4UZg/featured"  target="_blank" class="nav-link p-0 text-muted">Youtube</a></li>
+				  </ul>
+			  </div>
+
+			  <div class="col">
+				  <h5>Contacts</h5>
+				  <ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Phone number: 1234567890</a></li>
+				  </ul>
+			  </div>
+		  </footer>
+      </div>
+	 <!-- back to top buttons -->
+	  
+
+    <!-- javascripts -->
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+	  
+  </body>
+</html>
