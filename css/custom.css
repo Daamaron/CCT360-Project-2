@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+/*  Home page*/
+.nav-text {
+	font-size: 1.25em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+
+.spotlight-home{
+	background-image: url("../images/new-suit.jpg");
+	background-size: cover;
+	background-position: center top;
+	height: 800px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2.5em;
+	color: #fff;
+}
+
+.spotlight-home h1 {
+	position: relative;
+	top: 20px;
+}
+
+
+#Aaron-Logo {
+	color: #fff;
+	background-color: white;
+	font-size: 70px;
+	
+}
+
+.custom-background-color{
+	/*background-color: #173F5F;	*/
+	background-color: #000;
+	
+}
+
+.custom-nav-text{
+	color: #FFAC1C;
+	
+}
+
+.newnav-text{
+	color: pink;
+}
+
+.spotlight-home p{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.pagesetting{
+	text-underline-offset: 8px;
+	text-decoration: underline;
+	text-decoration-thickness: 0.25rem;
+}
+
+.nav-text ul li a:hover{
+	text-decoration: none;
+	/*background-color: #FFAC1C;*/
+}
+
+
+.logo-text {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	font-size: 2em;
+}
+
+.title-tag a {
+	color: #fff;
+	text-decoration:none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.title-tag a:hover {
+	color: #F0F0F0;
+	text-decoration:underline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+.quote p{
+	font-size: 1em;
+	color: white;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+.carousel-caption h3{
+
+	font-size: 2em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+.spotlight-text{
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	width: 4em;
+	height: 4em;
+}
+
+
+.footer-bottom {
+	background-color: #e6e6e6;
+	
+}
+
+.footer-bottom, .container footer{
+	margin-bottom: -50px;
+}
+
+
+
+
+/*  videos page*/
+
+
+
+.video-container{
+ 	position: relative; 
+	padding-bottom: 56.25%; 
+	padding-top: 30px; 
+	height: 0;
+	overflow: hidden;
+	
+
+}
+
+.video-container iframe, .video-container object, .video-container embed{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+#spotlightvideo {
+	background-image:url("../images/handcamera.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.navbar {
+	min-height: 80px;
+}
+
+.newNavHeight {
+	
+	padding-bottom: 525px;
+	background-image: url("../images/camera.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.newcolor{
+	background-color: green;
+}
+
+
+/*  contact Page*/
+
+
+.Map-title {
+	
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+.personal-infomation{
+	font-size: 2em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+
+/*  Events blog*/
+
+.event-nav-bg{
+	border-color: #0095AB;
+	border-style: solid;
+	border-width: thick;
+}
+
+.future-events-spotlight{
+	font-size: 2em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+.future-events-titles {
+	font-size: 2em;
+	border-bottom: thick;
+	border-bottom-color: red;
+	border-bottom-style: double;
+}
+
+.event-nav{
+	background-color: #000;
+}
+
+
+.spotlight-title{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+}
+
+.border-lines {
+	border-bottom: thick;
+	border-bottom-color: red;
+	border-bottom-style: double;
+}
+
+.event-container{
+	display: inline;
+	margin: 10px;
+	clear: right;
+}
+
+.text-container {
+	width: 41%;
+  	height: 100%;
+	float: right;
+	display: inline;
+	margin: 0 auto;
+	
+}
+
+.title-container {
+	display:block;
+}
+
+
+
+/*  About Me*/
+
+
+.hover-nav ul li a {
+	
+
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	font-weight:700;
+	
+	
+}
+.hover-nav ul li a:hover{
+	color:black;
+	background-color: #FFAC1C;
+	text-decoration: none;
+	
+}
+
+.custombody {
+	background-image: url("../images/backgroundimage.png");
+	background-size: contain;
+}
+.img-spacing {
+	padding: 25px;
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section1-text{
+	padding: 25px;
+	width: 50%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	
+}
+.list-container{
+	text-align: center;
+}
+.section3-text{
+	
+	padding: 25px;
+	width: 50%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.5em;
+	color: #fff;
+	display: inline-block;
+	text-align: left;
+	list-style-type: none;
+	
+}
+
+.section1-colors{
+	
+  	border-color: #000000;
+}
+
+.section2-colors{
+	
+  	color:red;
+}
+
+.section3-colors{
+	
+  	border-color: #000000;
+}
+
+
+.scrollspy-border{
+	border-color: #000000;
+	border-style: solid;
+	border-width: thick;
+}
+
+.footer-top{
+	background-color: #e6e6e6;
+}
+
+
+.footer-top, .container footer{
+	margin-top: -50px;
+}
+
+.about-me-nav {
+	background-color: #000;
+}
+
+
+.background-scroll{
+	/*background-color: #e6e6e6; */
+	background-color: #B0B0B0;
+}
+
+.nav-border {
+	border-color: #fff;
+	border-style: solid;
+	border-width: thick;
+}
+
+/*  process page*/
+.process-text{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	padding-top: 10px;
+	
+}
+
+.header-text{
+ 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 34px;
+	padding-top: 20px;
+	padding-bottom: -10px;
+	font-weight: bold;
+}
+
+
+  @media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+	  font-size: 3.5rem;
+	}
+  }
